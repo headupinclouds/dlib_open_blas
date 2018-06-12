@@ -1,0 +1,3 @@
+# DLIB_USE_BLAS=ON  : hang
+# DLIB_USE_BLAS=OFF : OK
+hunter_config(dlib VERSION ${HUNTER_dlib_VERSION} CMAKE_ARGS DLIB_USE_BLAS=ON)
